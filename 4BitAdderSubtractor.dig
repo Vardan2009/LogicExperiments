@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>4BitAdder.dig</elementName>
+      <elementAttributes/>
+      <pos x="960" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Subtract_flag</string>
+        </entry>
+      </elementAttributes>
+      <pos x="720" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>OnesComplement.dig</elementName>
+      <elementAttributes/>
+      <pos x="820" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>O</string>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>decSigned</intFormat>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1120" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>CO</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1120" y="80"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="920" y="160"/>
+      <p2 x="940" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="80"/>
+      <p2 x="960" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="80"/>
+      <p2 x="1120" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="180"/>
+      <p2 x="820" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="40"/>
+      <p2 x="800" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="40"/>
+      <p2 x="960" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="40"/>
+      <p2 x="1120" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="60"/>
+      <p2 x="960" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="60"/>
+      <p2 x="1080" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="140"/>
+      <p2 x="820" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="40"/>
+      <p2 x="800" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="80"/>
+      <p2 x="800" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="60"/>
+      <p2 x="1080" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="60"/>
+      <p2 x="940" y="160"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>

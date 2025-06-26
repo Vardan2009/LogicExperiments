@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
   <version>2</version>
-  <attributes/>
+  <attributes>
+    <entry>
+      <string>Label</string>
+      <string>4-Bit Add</string>
+    </entry>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>5</int>
+    </entry>
+  </attributes>
   <visualElements>
     <visualElement>
       <elementName>In</elementName>
@@ -96,12 +111,12 @@
           <string>O</string>
         </entry>
         <entry>
-          <string>intFormat</string>
-          <intFormat>decSigned</intFormat>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>4</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>decSigned</intFormat>
         </entry>
       </elementAttributes>
       <pos x="1140" y="-260"/>
@@ -120,6 +135,16 @@
       <elementName>FullAdder.dig</elementName>
       <elementAttributes/>
       <pos x="1000" y="-200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>CO</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1140" y="-180"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -146,6 +171,10 @@
     <wire>
       <p1 x="960" y="-180"/>
       <p2 x="1000" y="-180"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="-180"/>
+      <p2 x="1140" y="-180"/>
     </wire>
     <wire>
       <p1 x="380" y="20"/>
